@@ -4,7 +4,6 @@ declare class Composition {
     private scroll;
     private emitter;
     isComposing: boolean;
-    private isUndoing;
     constructor(scroll: Scroll, emitter: Emitter);
     private setupListeners;
     private handleCompositionStart;
