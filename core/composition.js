@@ -1,5 +1,6 @@
 import Embed from '../blots/embed.js';
 import Emitter from './emitter.js';
+import Delta from 'quill-delta';
 class Composition {
   isComposing = false;
   constructor(scroll, emitter) {
@@ -21,6 +22,7 @@ class Composition {
           this.handleCompositionEnd(event);
           this.scroll.batchEnd();
           this.isComposing = false;
+          this.emitter.emit(Emitter.events.TEXT_CHANGE, new Delta(), new Delta(), 'composition-fix');
         }, 0);
       }
     });
