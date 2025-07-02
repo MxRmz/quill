@@ -15,18 +15,19 @@ class Composition {
   private setupListeners() {
     this.scroll.domNode.addEventListener('compositionstart', (event) => {
       if (!this.isComposing) {
+        this.isComposing = true;
+        this.scroll.batchStart();
         this.handleCompositionStart(event);
       }
     });
 
     this.scroll.domNode.addEventListener('compositionend', (event) => {
       if (this.isComposing) {
-        // Webkit makes DOM changes after compositionend, so we use microtask to
-        // ensure the order.
-        // https://bugs.webkit.org/show_bug.cgi?id=31902
-        queueMicrotask(() => {
+        setTimeout(() => {
           this.handleCompositionEnd(event);
-        });
+          this.scroll.batchEnd();
+          this.isComposing = false;
+        }, 0);
       }
     });
   }
