@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e90dc89-8992-4eb6-a120-504cb5aa0293" name="Changes" comment="ime composition fix">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quill.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/base.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bubble.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bubble/toolbar.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bubble/tooltip.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/core.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/align-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/align-justify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/align-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/align-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/attachment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/audio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/authorship.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/background.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/blockquote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/clean.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/direction-ltr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/direction-rtl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/dropdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/embed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/emoji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/float-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/float-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/float-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/float-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/formula.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/hashtag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/horizontal-rule.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/indent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/list-bullet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/list-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/list-ordered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/mention.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/outdent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/size-decrease.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/size-increase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/size.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/spacing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/speech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/strike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/subscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/superscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-bottom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-none.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-outside.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-border-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-delete-cells.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-delete-columns.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-delete-rows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-insert-cells.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-insert-columns.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-insert-rows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-merge-cells.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table-unmerge-cells.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/snow.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/snow/toolbar.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/snow/tooltip.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/block.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/block.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/block.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/break.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/break.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/break.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/container.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/container.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/cursor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/cursor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/embed.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/embed.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/inline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/inline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/inline.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/scroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/scroll.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/text.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blots/text.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/composition.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/composition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/composition.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/editor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/editor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/emitter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/emitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/emitter.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/instances.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/instances.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/instances.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logger.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quill.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/quill.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/selection.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/selection.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/theme.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/theme.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/createRegistryWithFormats.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/createRegistryWithFormats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/createRegistryWithFormats.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/scrollRectIntoView.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/scrollRectIntoView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils/scrollRectIntoView.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.bubble.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.bubble.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.core.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.core.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.core.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.snow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quill.snow.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/align.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/align.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/align.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/background.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/background.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/blockquote.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/blockquote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/blockquote.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/bold.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/bold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/bold.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/code.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/code.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/color.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/color.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/direction.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/direction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/direction.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/font.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/font.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/font.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/formula.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/formula.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/formula.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/header.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/header.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/image.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/image.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/indent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/indent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/indent.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/italic.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/italic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/italic.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/link.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/link.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/list.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/list.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/script.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/script.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/size.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/size.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/size.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/strike.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/strike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/strike.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/table.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/table.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/underline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/underline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/underline.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/video.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formats/video.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clipboard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/clipboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/history.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/history.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/input.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/input.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/keyboard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/keyboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/googleDocs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/googleDocs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/googleDocs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/msWord.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/msWord.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/normalizeExternalHTML/normalizers/msWord.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/syntax.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/syntax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/syntax.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/table.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/table.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/tableEmbed.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/tableEmbed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/tableEmbed.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/toolbar.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/toolbar.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uiNode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uiNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uiNode.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uploader.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/uploader.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quill.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quill.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/base.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bubble.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bubble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bubble.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/snow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/snow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/snow.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/color-picker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/color-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/color-picker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icon-picker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icon-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icon-picker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icons.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/icons.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/picker.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/picker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/tooltip.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/tooltip.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MxRmz&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dist" />
+                    <option name="lastUsedInstant" value="1751451639" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="ime_fix" />
+                    <option name="lastUsedInstant" value="1751451557" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1751451382" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MxRmz/quill.git&quot;,
+    &quot;accountId&quot;: &quot;50240436-4700-477f-b080-5d56bf6f1308&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2zJZq9fhXaMb913uFiyYDyMF554" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/513/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PS-251.26927.60" />
+        <option value="bundled-php-predefined-a98d8de5180a-e5747d4f5a45-com.jetbrains.php.sharedIndexes-PS-251.26927.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e90dc89-8992-4eb6-a120-504cb5aa0293" name="Changes" comment="" />
+      <created>1751451328689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751451328689</updated>
+      <workItem from="1751451330924" duration="159000" />
+      <workItem from="1751451502760" duration="254000" />
+      <workItem from="1751451770661" duration="4000" />
+    </task>
+    <task id="LOCAL-00001" summary="ime composition fix">
+      <option name="closed" value="true" />
+      <created>1751451567412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751451567412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ime composition fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ime composition fix" />
+  </component>
+</project>
