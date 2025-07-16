@@ -221,7 +221,7 @@ class Quill {
     }) as Scroll;
     this.editor = new Editor(this.scroll);
     this.selection = new Selection(this.scroll, this.emitter);
-    this.composition = new Composition(this.scroll, this.emitter);
+    this.composition = new Composition(this.scroll, this.emitter, this);
     this.theme = new this.options.theme(this, this.options); // eslint-disable-line new-cap
     this.keyboard = this.theme.addModule('keyboard');
     this.clipboard = this.theme.addModule('clipboard');
@@ -636,17 +636,17 @@ class Quill {
     handler: (
       ...args:
         | [
-            (typeof Emitter)['events']['TEXT_CHANGE'],
-            Delta,
-            Delta,
-            EmitterSource,
-          ]
+        (typeof Emitter)['events']['TEXT_CHANGE'],
+        Delta,
+        Delta,
+        EmitterSource,
+      ]
         | [
-            (typeof Emitter)['events']['SELECTION_CHANGE'],
-            Range,
-            Range,
-            EmitterSource,
-          ]
+        (typeof Emitter)['events']['SELECTION_CHANGE'],
+        Range,
+        Range,
+        EmitterSource,
+      ]
     ) => void,
   ): Emitter;
   on(event: string, ...args: unknown[]): Emitter;

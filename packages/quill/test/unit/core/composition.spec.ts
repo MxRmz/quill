@@ -11,7 +11,15 @@ describe('Composition', () => {
     const scroll = new Scroll(createRegistry(), document.createElement('div'), {
       emitter,
     });
-    new Composition(scroll, emitter);
+
+    const mockQuill = {
+      getSelection: () => ({ index: 0, length: 0 }),
+      insertText: () => {},
+      deleteText: () => {},
+      setSelection: () => {},
+    };
+
+    new Composition(scroll, emitter, mockQuill as any);
 
     vitest.spyOn(emitter, 'emit');
 
